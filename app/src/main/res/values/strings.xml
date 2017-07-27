@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GIF Star</string>
+    <string name="here_we_go">Here we go!</string>
+    <string name="share_app">Share App</string>
+    <string name="terms_and_privacy">Terms &amp; Privacy</string>
+    <string name="processing">Processing...</string>
+    <string name="facebook_app_id">642909745869582</string>
+</resources>

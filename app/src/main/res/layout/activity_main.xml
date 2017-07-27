@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="camera_Clicked">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/captureBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_circle" />
+
+    <ImageView
+        android:id="@+id/switchBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bottomrotate"
+        android:onClick="switchCameraClicked" />
+
+    <ImageView
+        android:id="@+id/loveBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/lovesign"
+        android:onClick="shareAppClicked" />
+
+    <EditText
+        android:id="@+id/inputET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/light_corner"
+        android:gravity="center_vertical"
+        android:hint="Say something fun..."
+        android:imeOptions="actionDone"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/light_White_1"
+        android:textSize="20sp" />
+
+</RelativeLayout>
